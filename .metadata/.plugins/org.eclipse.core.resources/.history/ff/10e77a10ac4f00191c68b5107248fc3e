@@ -1,0 +1,16 @@
+package kr.hs.emirim.page;
+
+public class Page {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int nPerPage = 7;
+		int result = 331;
+		int 결과 = result / nPerPage + 1;
+		if(result%ParPage == 0) {
+			결과 = result / nPerPage;
+		}
+		System.out.pritnln(결과+"페이지가 필요합니다.");	
+	}
+
+}
