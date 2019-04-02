@@ -1,4 +1,5 @@
-package kr.hs.emirim.page;
+package kr.hs.emirim.echo;
+
 
 import java.util.Scanner;
 
