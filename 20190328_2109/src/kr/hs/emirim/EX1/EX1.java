@@ -160,6 +160,15 @@ public class EX1 {
 		System.out.println(Math.sqrt(-9.0));
 		System.out.println();
 		
+		// 21. 랜덤값을 구하는 random() 메소드를 사용하여 다음을 구하시오.
+		System.out.println(Math.random());
+		System.out.println(Math.random());
+		System.out.println((int)Math.random()*5);
+		System.out.println((int)(Math.random()*5));
+		System.out.println((int)Math.random()*10);
+		System.out.println((int)(Math.random()*100));
+		System.out.println();
+		
 	}
 
 }

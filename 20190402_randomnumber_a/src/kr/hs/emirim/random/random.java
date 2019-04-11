@@ -18,8 +18,8 @@ public class random {
 		
 		while(true) {
 			
-			//int guess = random.nextInt(end-start+1)+start;
-			int guess = (end-start)/2;//최적화 기법
+			int guess = random.nextInt(end-start+1)+start;
+			//int guess = (end-start)/2;//최적화 기법
 			System.out.println(guess+"입니까? (0 : 정답, 1 : up, 2 : down)");
 			//input(up/down/점답/) (0 : 정답, 1 : up, 2 : down)
 			int answer = scanner.nextInt();
