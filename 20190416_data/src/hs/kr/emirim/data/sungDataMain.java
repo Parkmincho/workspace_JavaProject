@@ -1,3 +1,5 @@
+package hs.kr.emirim.data;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
