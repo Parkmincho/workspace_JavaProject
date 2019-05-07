@@ -17,7 +17,7 @@ public class GUIText_JTextField {
 		
 		JTextField tf = new JTextField("아이디를 입력하세요");
 		tf.setSize(100, 20);
-		tf.setText("");
+//		tf.setText("");
 		
 		panel.add(label);
 		panel.add(tf);
