@@ -31,7 +31,6 @@ public class rockpapercissors01 {
 	}
 
 	private static int compare(int p, int c) {
-		// TODO Auto-generated method stub
 		
 		//if((p==1&&c==2) || (p==2&&c==3) || (p==3&&c==1))
 		if((p+1)%3==c)
